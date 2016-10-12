@@ -1,0 +1,130 @@
+.wrapper > * {
+ background-color:white;
+ padding: 10px;
+ flex: 100%;
+}
+
+.header {
+  background-color: tomato;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+ .petittrucduhaut{
+   background-color:rgba(150, 240, 230, 5);;
+   margin-left: 350px;
+   padding: 25px;
+   width: 270px;
+   height: 15px;
+
+ }
+ .exo {
+   text-align: left;
+   color: white;
+   font-style: oblique;
+   font-size: 20px;
+
+ }
+
+.jencadretout {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+
+}
+.trucdumillieu {
+ background-color: white;
+ display: flex;
+ flex-flow: column;
+ justify-content: space-between;
+
+}
+.phaut{
+  display: flex;
+}
+
+.gauche{
+  display: flex;
+  background-color: tomato;
+  padding: 5px;
+  margin-right: 5px;
+
+}
+.droite{
+  display: flex;
+  background-color: tomato;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+
+.pmillieu{
+  background-color: tomato;
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+}
+.petitcarre {
+  background-color: rgba(150, 240, 230, 5);
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+.pbas{
+  background-color:tomato;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.truc2 {
+ background-color: tomato;
+ color: white;
+ display: inline-block;
+ justify-content: flex-end;
+ flex-flow: column;
+}
+
+.carre2 {
+  background-color: rgba(150, 240, 230, 5);
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+}
+
+.truc1 {
+ background-color: tomato;
+ color: white;
+ display: inline-block;;
+ justify-content: flex-start;
+ flex-flow: column;
+
+}
+
+.carre1 {
+  background-color: rgba(150, 240, 230, 5);
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+}
+
+.lestroisdubas{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.ipo {
+  background-color: tomato;
+  color: white;
+  width: 220px;
+  text-align: center;
+
+}
+
+.footer {
+background-color: tomato;
+color: white;
+display: center;
+text-align: center;
+}
