@@ -1,0 +1,186 @@
+body {
+background-color: black;
+margin: 0px;
+padding: 0px;
+}
+
+.debut {
+  background-color:black;
+  color: white;
+  display:flex;
+
+}
+
+.logo {
+  height: 55px;
+  width: 55px;
+  padding-top: 20px;
+  padding-left: 45px;
+}
+
+h1 {
+  font-size: 30px;
+ font-family: serif;
+ padding-left: 50px;
+
+}
+
+.menu {
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.lul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 350px;
+
+}
+
+#a {
+ text-decoration: none;
+ font-size: 20px;
+ display: block;
+ padding: 10px;
+ color: white;
+ margin: 10px;
+
+}
+ #a:hover{
+  background: #520710;
+  border-radius: 5px;
+
+}
+.enormetrucrouge {
+  background-color: #520710;
+  border-radius: 20px;
+  margin: 25px;
+  height: 350px;
+  align-items: center;
+  display: flex;
+
+}
+.textagauche{
+  display: inline;
+  padding-left: 40px;
+
+}
+.textagauche h2{
+  font-size: 30px;
+  color: white;
+  font-family: Arial;
+  display: flex;
+
+}
+h3 {
+  font-size: 25px;
+  font-family: Arial;
+
+}
+input {
+  border-radius: 5px;
+
+}
+.antene {
+  justify-content: flex-end;
+  position: absolute;
+  height: 70%;
+  width: 55%;
+  padding-left: 540px;
+}
+
+.moyentrucnoir {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 1px solid rgba(100, 100, 100, 5);
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#serv {
+  color: rgba(145, 145, 145, 1);
+  font-size: 30px;
+  padding-left: 30px;
+
+
+}
+.moyentrucnoir a{
+  color: rgba(145, 145, 145, 1);
+  text-decoration: none;
+  font-size: 20px;
+  align-items: center;
+
+
+}
+.moyentrucnoir li {
+  color: white;
+   border-bottom: 2px solid rgba(45, 45, 45, 1);
+
+}
+
+.toutlebordel{
+  background-color: black;
+  display:flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+.news{
+  background-color: black;
+  display: inline-block;
+  padding: 30px;
+  margin-left: 30px;
+  font-size: 15px;
+  color: white;
+  font-family: Arial;
+}
+.news h4{
+  font-size: 20px;
+}
+.lereste {
+  background-color: black;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: white;
+  margin-right: 30px;
+}
+.welcome h4{
+  font-size: 30px;
+
+}
+.photo{
+  display: flex;
+  background-color: black;
+  padding: 5px;
+}
+.photo1{
+  border-right: 2px solid grey;
+  padding-right: 20px;
+}
+#p1 {
+  height: 130px;
+  width: 290px;
+}
+.photo2 {
+  padding-left: 20px;
+}
+#p2 {
+  height: 130px;
+  width: 290px;
+}
+.bas {
+  background-color: rgba(25, 25, 25, 1);
+  padding: 40px;
+  justify-content: center;
+  font-size: 15px;
+  text-align: center;
+}
+a {
+  color: gold;
+}
